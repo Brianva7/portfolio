@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-white;
+
+  font-family: "Oswald", sans-serif;
+
+  min-height: 100vh;
+
+  background-image: url("/images/mainbg.jpg");
+
+  background-attachment: fixed;
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.blurbg {
+  background-color: rgba(0, 0, 0, 0.3);
+
+  backdrop-filter: blur(5px);
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: orange;
+}
+
+h3 {
+  font-size: 1.25rem;
+  width: 60ch;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+p {
+  font-size: 1rem;
+
+  line-height: 1.5rem;
+}
+
+.orangeSpan {
+  color: orange;
+}
+
+.flip:hover {
+  transform: rotateY(360deg);
+
+  transition: 1s;
+}
