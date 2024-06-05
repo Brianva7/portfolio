@@ -1,9 +1,9 @@
 export const Footer = () => {
   return (
     <div className="bottom-0">
-      <div className="px-3 pt-5 blurbg rounded w-full ">
+      <div className="pt-5 blurbg rounded w-full ">
         <h2>Tecnologias</h2>
-        <div className="flex flex-row justify-center gap-4 p-5 w-full h-56 overflow-auto">
+        <div className="flex flex-row left-0 px-5 gap-4  w-full h-56 overflow-x-scroll">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
             alt="html5 icon"
